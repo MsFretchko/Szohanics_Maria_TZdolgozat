@@ -1,0 +1,34 @@
+* {
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.linkek {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nagytarolo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logok {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:600px) {
+    .linkek {
+        grid-template-columns: 1fr;
+    }
+    .nagytarolo {
+        grid-template-columns: 1fr;
+    }
+    .logok {
+        grid-template-columns: 1fr;
+    }
+
+    
+}
