@@ -16,8 +16,29 @@ h1{
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
-    padding: 5px;
+    padding: 10px;
     color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.linkek {
+    padding: 10px;
+}
+
+a {
+    font-weight: bold;
+    color: azure;
+    text-decoration: none;
+    border: 1px solid rgb(1, 1, 31);
+    background-color: rgb(1, 1, 31);
+    margin: 2px;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 10%;
+}
+
+a:hover {
+    color: aquamarine;
 }
 
 img {
@@ -42,18 +63,36 @@ nav {
     grid-template-columns: 1fr 1fr;
     background-color: aliceblue;
     margin: 10px;
+    font-size: 20px;
+}
+
+.kep {
+    max-width: 100%;
+}
+
+.szoveg {
+    text-align: justify;
+    margin: 10px;
 }
 
 .kistarolo {
     border: 3px solid rgb(95, 95, 112);
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+}
+
+.kiszoveg {
+    text-align: center;
+    max-width: 250px;
 }
 
 .logok {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-image: url(kepek/footer/header.png);
+    padding: 10px;
 }
+
 
 @media screen and (max-width:600px) {
     .linkek {
