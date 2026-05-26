@@ -2,6 +2,34 @@
     max-width: 1000px;
     margin: auto;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(kepek/footer/body.png);
+    font-size: 16px;
+    color: darkblue;
+    text-indent: 1.6px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-image: url(kepek/footer/header.png);
+}
+
+nav {
+    background-image: url(kepek/footer/header.png);
 }
 
 .linkek {
@@ -12,6 +40,14 @@
 .nagytarolo {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.kistarolo {
+    border: 3px solid rgb(95, 95, 112);
+    padding: 10px;
+    margin: 10px;
 }
 
 .logok {
@@ -28,7 +64,5 @@
     }
     .logok {
         grid-template-columns: 1fr;
-    }
-
-    
+    }  
 }
